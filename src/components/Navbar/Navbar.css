@@ -1,9 +1,4 @@
 .app__navbar{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--color-black);
     padding: 1rem 2rem;
 }
 
@@ -46,7 +41,6 @@
 .app__navbar-login a{
     margin: 0 1rem;
     text-decoration: none;
-    color: var(--color-white);
     transition: 0.5s ease;
 }
 
@@ -54,10 +48,8 @@
     color: var(--color-white);
 }
 
-.app__navbar-login .p_opensans{
-    border-bottom: 1px solid #f00;
-}
-
-.app__navbar-login a:hover{
-   border-bottom: 1px solid var(--color-golden);
+.app__navbar-login div{
+    width: 1px;
+    height: 30px;
+    background-color: var(--color-grey);
 }
