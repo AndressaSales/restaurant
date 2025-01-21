@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './Navbar.css'
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import images from '../../utils/images'
 import ResponseNavbar from './ResponseNavbar';
