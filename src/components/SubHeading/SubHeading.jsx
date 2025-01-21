@@ -1,8 +1,12 @@
 import React from 'react'
+import images from '../../utils/images'
 
-const SubHeading = () => {
+const SubHeading = ({title}) => {
   return (
-    <div>SubHeading</div>
+    <div style={{marginBottom: '1rem'}}>
+      <p className='text-white font-family'>{title}</p>
+      <img src={images.spoon} className='w-[50px]' />
+    </div>
   )
 }
 

@@ -1,17 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --font-base: '';
 
-  --color-golden: #DCCA87;
-  --color-black: #0C0C0C;
-  --color-gray: #545454;
-  --color-crimson: #F5EFDB;
-  --color-grey: #AAAAAA;
-  --color-white: #ffff;
-}
+
 
 *{
   margin: 0;
