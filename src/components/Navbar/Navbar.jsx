@@ -13,23 +13,23 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='flex justify-between items-center bg-[#0C0C0C] app__navbar'>
-      <div className='app__navbar-logo'>
-        <img src={images.gericht} alt="app_logo" />
+    <nav className='flex justify-between items-center bg-primaryblack ' style={{padding: '1rem 2rem'}}>
+      <div className='flex justify-start items-center'>
+        <img src={images.gericht} alt="app_logo"  className='w-[150px]' />
       </div>
       <div className='hidden md:block'>
-        <ul className='app__navbar-links'>
-          <li className='p_opensans'><a href="#home">Home</a></li>
-          <li className='p_opensans'><a href="#about">Sobre</a></li>
-          <li className='p_opensans'><a href="#menu">Menu</a></li>
-          <li className='p_opensans'><a href="#awards">Prêmios</a></li>
-          <li className='p_opensans'><a href="#contact">Contatos</a></li>
+        <ul className='text-white flex-1 flex justify-center items-center' style={{listStyle: 'none'}}>
+          <li className='font-bold hover:text-grey' style={{margin: '0 1rem'}}><a href="#home">Home</a></li>
+          <li className='font-bold hover:text-grey' style={{margin: '0 1rem'}}><a href="#about">Sobre</a></li>
+          <li className='font-bold hover:text-grey' style={{margin: '0 1rem'}}><a href="#menu">Menu</a></li>
+          <li className='font-bold hover:text-grey' style={{margin: '0 1rem'}}><a href="#awards">Prêmios</a></li>
+          <li className='font-bold hover:text-grey' style={{margin: '0 1rem'}}><a href="#contact">Contatos</a></li>
         </ul>
       </div>
-      <div className='app__navbar-login'>
-        <a href="#login" className='p_opensans'>Conecte-se / Registra</a>
-        <div/>
-        <a href="/" className='p_opensans'>Livro</a>      
+      <div className='flex items-center justify-start text-white'>
+        <a href="#login" style={{margin: '0 1rem', textDecoration: 'none', transition: '0.5s ease'}}>Conecte-se / Registra</a>
+        <div className='w-[1px] h-[30px] bg-grey'/>
+        <a href="/" style={{margin: '0 1rem', textDecoration: 'none', transition: '0.5s ease'}}>Livro</a>      
       </div>
         {
           menu ? (

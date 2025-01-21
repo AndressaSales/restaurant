@@ -14,7 +14,7 @@
 }
 
 .app__navbar-links{
-    color: var(--color-white);
+   
     flex: 1;
     display: flex;
     justify-content: center;
