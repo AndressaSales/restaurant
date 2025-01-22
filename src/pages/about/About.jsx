@@ -8,7 +8,7 @@ const About = () => {
             <img src={images.G} alt="g" className='w-[391px] h-[415px] z-0' />
         </div>
         <div className='container justify-center items-center z-[2]
-        flex sm:flex sm:flex-col lg:flex-row'>
+        flex md:flex-row sm:flex sm:flex-col lg:flex-row'>
           <div className='flex-1 flex justify-end flex-col text-right items-end'>
             <h1 className='text-golden text-[64px] font-serif tracking-[0.04em] capitalize leading-[83.2px]'>Sobre</h1>
             <img src={images.spoon} className='w-[50px]' />
@@ -16,7 +16,7 @@ const About = () => {
             <button type='button' className='cursor-pointer bg-crismson text-primaryblack text-[16px] tracking-[0.04em] leading-[28px] border-[1px] outline-none font-bold' style={{padding: '0.5rem 1.5rem'}}>Saiba Mais</button>
           </div>
           <div className='hidden md:block' style={{margin: '2rem 4rem'}}>
-            <img src={images.knife} className='lg:w-[70px]' />
+            <img src={images.knife} className='lg:w-[70px] md:w-[50px]' />
           </div>
           <div className='flex-1 flex justify-start items-start flex-col text-left'>
             <h1 className='text-golden text-[64px] capitalize'>Nossa História</h1>
