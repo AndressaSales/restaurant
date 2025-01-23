@@ -4,7 +4,7 @@ import SubHeading from '../../components/SubHeading/SubHeading'
 
 const Chefs = () => {
   return (
-    <div className='bg-primaryblack h-[100vh] w-[100%] justify-center items-center lg:flex-row flex flex-col'>
+    <div className='bg-primaryblack h-[100vh] w-[100%] justify-center items-center lg:flex-row md:flex-row flex flex-col'>
         <div className='flex-1 w-[100%] flex justify-center items-center ml-[2rem] '>
             <img src={images.chef} alt="chef" className='w-[50%]' />
         </div>
