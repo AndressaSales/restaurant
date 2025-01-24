@@ -1,5 +1,5 @@
-import './App.css'
 import Chefs from './components/chefs/Chefs'
+import Intro from './components/intro/Intro'
 import Navbar from './components/Navbar/Navbar'
 import About from './pages/about/About'
 import Home from './pages/home/Home'
@@ -14,6 +14,7 @@ function App() {
       <About />
       <Menu />
       <Chefs />
+      <Intro />
     </>
   )
 }
