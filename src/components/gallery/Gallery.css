@@ -1,0 +1,8 @@
+.gallery_images{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.gallery_images::-webkit-scrollbar{
+    display: none;
+}

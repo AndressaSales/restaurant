@@ -1,4 +1,5 @@
 import Chefs from './components/chefs/Chefs'
+import Gallery from './components/gallery/Gallery'
 import Intro from './components/intro/Intro'
 import Navbar from './components/Navbar/Navbar'
 import About from './pages/about/About'
@@ -17,6 +18,7 @@ function App() {
       <Chefs />
       <Intro />
       <Awards />
+      <Gallery />
     </>
   )
 }
