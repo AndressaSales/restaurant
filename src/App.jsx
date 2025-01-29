@@ -4,6 +4,7 @@ import Intro from './components/intro/Intro'
 import Navbar from './components/Navbar/Navbar'
 import About from './pages/about/About'
 import Awards from './pages/awards/Awards'
+import Findus from './pages/findus/Findus'
 import Home from './pages/home/Home'
 import Menu from './pages/specialMenu/Menu'
 
@@ -19,6 +20,7 @@ function App() {
       <Intro />
       <Awards />
       <Gallery />
+      <Findus />
     </>
   )
 }
