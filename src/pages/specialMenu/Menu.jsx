@@ -9,12 +9,12 @@ const Menu = () => {
     <div id='menu' className='bg-primaryblack h-[100vh] w-[100%]'>
       <div className='container justify-center flex items-center flex-col pb-6'>
         <SubHeading title='Menu Que Se Adapta ao Seu Paladar' />
-        <h1 className='text-golden font-serif font-bold text-[64px] leading-[0.04em] capitalize pt-5 sm:text-5xl'>Especial de Hoje</h1>
+        <h1 className='text-golden font-serif font-bold lg:text-[64px] md:text-[64px] leading-[0.04em] capitalize pt-5 sm:text-5xl'>Especial de Hoje</h1>
       </div>
-      <div className='w-full flex items-start justify-center lg:flex-row md:flex-row text-white flex-col sm:items-center' style={{margin: '2rem 0'}}>
+      <div className='w-full flex lg:items-start md:items-start sm:items-center justify-center lg:flex-row md:flex-row text-white flex-col ' style={{margin: '2rem 0'}}>
         <div>
           <p className='text-white font-mono text-2xl text-center font-semibold leading-[58.5px]'>Vinho & Cerveja</p>
-          <div>
+          <div className='sm:m-3'>
             {
               data.wines.map((wine) => {
                 return(
@@ -31,7 +31,7 @@ const Menu = () => {
         </div>
         <div>
             <p className='text-white font-mono text-2xl text-center font-semibold leading-[58.5px]'>Coquetel</p>
-            <div>
+            <div className='sm:m-3'>
               {
                 data.cocktails.map((cocktail)=> {
                   return(
