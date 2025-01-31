@@ -10,8 +10,8 @@ const Home = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2'>
               <div className='flex flex-col justify-center gap-6 pt-12 md:pt-0 order-2 md:order-1'>
                 <SubHeading title={'Persiga o novo sabor'} />
-                <h1 className='text-golden tracking-[0.04em] uppercase leading-[117px] text-5xl md:text-3xl sm:text-base font-serif'>A Chave Para Uma Refeição Requintada</h1>
-                <p className='text-[16px] text-white font-normal tracking-[0.04em] capitalize leading-[28px] font-mono' style={{margin: '2rem 0'}}>
+                <h1 className='text-golden tracking-[0.04em] uppercase leading-[117px] lg:text-5xl md:text-3xl sm:text-base font-serif'>A Chave Para Uma Refeição Requintada</h1>
+                <p className='lg:text-[16px] md:text-[16px] sm:text-sm text-white font-normal tracking-[0.04em] capitalize leading-[28px] font-mono' style={{margin: '2rem 0'}}>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, ipsa eum laudantium error iusto accusantium culpa facere beatae quasi. Voluptatem, commodi neque. Natus commodi reiciendis, ipsum distinctio rem ullam repellat?
                 </p>
                 <div>
@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
               </div>
               <div className='min-h-[450px] flex justify-center items-center order-1 sm:order-2 relative'>
-                  <img src={images.welcome} className='w-[450px] md:w-[300px] ' />
+                  <img src={images.welcome} className='lg:w-[450px] w-[300px] ' />
               </div>
             </div>
         </div>      
