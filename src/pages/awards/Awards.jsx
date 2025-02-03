@@ -6,7 +6,7 @@ import AwardsCard from '../../components/awardsCard/AwardsCard'
 
 const Awards = () => {
   return (
-    <div id='awards' className='bg-primaryblack h-[100vh] w-[100%] justify-center items-center grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2'>
+    <div id='awards' className='bg-primaryblack h-[100vh] w-[100%] justify-center items-center grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mb-0 sm:mb-20'>
         <div className='container'>
             <SubHeading title='Prêmios & Reconhecimento'/>
             <h1 className='text-golden tracking-[0.04em] capitalize leading-[117px] lg:text-5xl text-3xl font-serif'>Nossos Prêmios</h1>
