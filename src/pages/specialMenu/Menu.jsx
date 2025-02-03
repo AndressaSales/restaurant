@@ -11,7 +11,7 @@ const Menu = () => {
         <SubHeading title='Menu Que Se Adapta ao Seu Paladar' />
         <h1 className='text-golden font-serif font-bold lg:text-[64px] md:text-[64px] leading-[0.04em] capitalize pt-5 sm:text-5xl'>Especial de Hoje</h1>
       </div>
-      <div className='w-full flex lg:items-start md:items-start sm:items-center justify-center lg:flex-row md:flex-row text-white flex-col ' style={{margin: '2rem 0'}}>
+      <div className='w-full flex lg:items-start md:items-start sm:items-center justify-center lg:flex-row md:flex-row text-white flex-row ' style={{margin: '2rem 0'}}>
         <div>
           <p className='text-white font-mono text-2xl text-center font-semibold leading-[58.5px]'>Vinho & Cerveja</p>
           <div className='sm:m-3'>
